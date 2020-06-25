@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  filter_set: one
+  name: MyString
+  last_sent_at: 2020-06-25 04:42:48
+
+two:
+  user: two
+  filter_set: two
+  name: MyString
+  last_sent_at: 2020-06-25 04:42:48
