@@ -1,0 +1,7 @@
+<h1>Daily Digest</h1>
+
+<ul>
+  <% @openings.each do |opening| %>
+    <li><%= opening.id %>. <%= opening.title %></li>
+  <% end %>
+</ul>

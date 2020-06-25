@@ -1,0 +1,10 @@
+daily_digest:
+  # cron: "0 7 * * *" # Every day at 7:00 AM
+  cron: "* * * * *" # Every minute
+  class: "DailyDigestJob"
+  queue: default
+weekly_digest:
+  # cron: "0 7 * * 0" # Every Sunday at 7:00 AM
+  cron: "*/2 * * * *" # Every 2 minutes
+  class: "WeeklyDigestJob"
+  queue: default
