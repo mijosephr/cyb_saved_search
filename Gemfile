@@ -55,5 +55,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 
-gem 'sidekiq', '~> 6.0', '>= 6.0.7'
+gem 'sidekiq', '~> 6.2'
 gem 'sidekiq-cron', '~> 1.2'
